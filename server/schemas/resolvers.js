@@ -35,12 +35,12 @@ const resolvers = {
         },
         saveBook: async (parent, { book }, params ) => {
             if (params.user) {
-                const upddatedUser = await User.findOneAndUpdate(
+                const updatedUser = await User.findOneAndUpdate(
                     {_id: params.user._id},
                     { $addToSet: {savedBooks: book}},
                     {new: true}
                 )
-                return upddatedUser
+                return updatedUser
             }
             throw new AuthenticationError('Please log in first ')
         },
