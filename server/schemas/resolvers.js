@@ -14,6 +14,7 @@ const resolvers = {
         return Book.find(params);
     },
     },
+    // create the functions that fulfill the mutations defined in `typeDefs`
     Mutation: {
         addUser: async( parent, args) => {
             const user = await User.create(args);
