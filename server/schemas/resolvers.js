@@ -15,6 +15,7 @@ const resolvers = {
     },
     },
     // create the functions that fulfill the mutations defined in `typeDefs`
+    // set up the ability to `login` a user
     Mutation: {
         addUser: async( parent, args) => {
             const user = await User.create(args);
