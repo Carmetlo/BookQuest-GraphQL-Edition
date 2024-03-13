@@ -4,7 +4,7 @@
   "description": "",
   "main": "server/server.js",
   "engine": {
-    "node": "16.16.1",
+    "node": "17.0.1",
     "npm": "8.1.0"
   },
   "scripts": {
