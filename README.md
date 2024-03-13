@@ -3,7 +3,7 @@
 ![Book Search Engine Screenshot](screenshot.png)
 
 ## Overview
-
+![alt text](image.png)
 The Book Search Engine is a full-stack web application that allows users to search for books using the Google Books API and save them to their account. The application originally used a RESTful API but has been refactored to use GraphQL queries and mutations with Apollo Server.
 
 ### Features
@@ -56,4 +56,4 @@ npm start
 
 GitHub Repository:  https://github.com/Carmetlo/BookQuest-GraphQL-Edition
 
-Deployed application:  
+Deployed application:  https://bookquest-graphql-edition.onrender.com/
