@@ -3,7 +3,7 @@ const { Book, User } = require('../models/index');
 const { AuthenticationError } = require('apollo-server-express');
 const { signToken } = require('../utils/auth');
 
-
+// create the functions that fulfill the queries defined in `typeDefs`
 const resolvers = {
     Query: {
     user: async () => {
